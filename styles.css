@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+}
+header{
+    height: 100vh;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.59)),url('./netflixbackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#headercontent{
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+#headercontent p{
+    font-size: 20px;
+}
+
+
+
+#faq button{
+    outline: 0;
+    color: white;
+    background-color: #303030;
+    border-radius: 1px;
+    border: none;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    box-shadow: 0 0 10 black;
+}
+
+#faq .accordion-item{
+    margin-bottom: 10px;
+}
+#faq .accordion-collapse{
+    background-color: #303030;
+    border: 1px solid #303030;
+    color: white;
+}
+
+footer p{
+    color: lightgray;
+}
+footer p a{
+    color: lightgray;
+    text-decoration: none;
+}
+
+footer p a:hover{
+    color: white;
+    text-decoration: underline;
+}
